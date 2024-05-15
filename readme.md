@@ -10,7 +10,7 @@ To install the necessary requirements, use the following command:
 
 ## Reproducing Results
 
-### Bayesian Sensitivity Analysis
+### 1. Bayesian Sensitivity Analysis for Linear Model
 
 To reproduce the results for Bayesian sensitivity analysis (Figure 2 (Left & Middle)), run the following command:
 
@@ -18,7 +18,13 @@ To reproduce the results for Bayesian sensitivity analysis (Figure 2 (Left & Mid
 
 You can vary the dimension by altering the argument 'dim --2' to reproduce Figure 2 (Right).
 
-### Black-Scholes Model
+### 2. Bayesian Sensitivity Analysis for the Susceptible-Infec-tious-Recovered (SIR) Model.
+
+To reproduce the results for the SIR model (Figure 4 (Middle)), run:
+
+`python SIR.py`
+
+### 3. Option Pricing in Mathematical Finance.
 
 To reproduce the results for the Black-Scholes model using Stein kernels (Figure 4 (Left)), run:
 
@@ -28,13 +34,8 @@ And to reproduce the results for the Black-Scholes model not using Stein kernels
 
 `python black_scholes.py --kernel_theta rbf --kernel_x log_normal_rbf`
 
-### SIR Model
 
-To reproduce the results for the SIR model (Figure 4 (Middle)), run:
-
-`python SIR.py`
-
-### Health Economics
+### 4. Uncertainty Decision Making in Health Economics
 
 To reproduce the results for uncertainty decision making in health economics (Figure 5), run:
 
