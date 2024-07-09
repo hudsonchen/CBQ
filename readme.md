@@ -1,6 +1,8 @@
 # Conditional Bayesian Quadrature
 
-This repository contains the implementation of the code for the paper "Conditional Bayesian Quadrature". In the code, the algorithm proposed in the paper is "CBQ", the baseline methods are Least-square Monte Carlo (LSMC), Kernel Mean Shrinkage estimator (KMS), and Importance Sampling (IS).
+This repository contains the implementation of the code for the paper "Conditional Bayesian Quadrature" https://arxiv.org/pdf/2406.16530, accepted by UAI 2024!
+
+In the code, the algorithm proposed in the paper is "CBQ", the baseline methods are Least-square Monte Carlo (LSMC), Kernel Mean Shrinkage estimator (KMS), and Importance Sampling (IS).
 
 Our approach consists in a two-stage Gaussian process regression.
 ![Description of image](illustration.png)
